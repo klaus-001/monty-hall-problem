@@ -15,15 +15,19 @@ The Monty Hall Problem is a brain teaser, in the form of a probability puzzle, b
 
 ## Introduction
 
-The Monty Hall Problem is a counter-intuitive statistics puzzle. This simulation puts to the test the "switch" strategy vs the "stay" strategy, statistically verifying which yields a better chance of winning. By running simulations across a variety of door scenarios (3, 10, and 10,000 doors), the project showcases a clear result: **switching** is the optimal choice.
+The Monty Hall Problem is a counter-intuitive statistics puzzle. This simulation puts to the test the "switch" strategy vs the "stay" strategy, statistically verifying which yields a better chance of winning. By running simulations across a variety of door scenarios (3, 10, and 1,000 doors), the project showcases a clear result: **switching** is the optimal choice.
 
 ## Play the Game
 
-- The car is hidden in one of three doors.
-- The host will ask the contestant to choose one of those three doors. For demonstration purposes, let's say the contestant picked door 1.
-- The host knowing the contents behind each door, opens one of the remaining doors, let's say door 3 which reveals a goat.
-- The host will then ask the contestant whether he/she wants to switch or stay.
-- What should the contestant do?
+The car is hidden in one of three doors.
+
+The host will ask the contestant to choose one of those three doors. For demonstration purposes, let's say the contestant picked door 1.
+
+The host knowing the contents behind each door, opens one of the remaining doors, let's say door 3 which reveals a goat.
+
+The host will then ask the contestant whether he/she wants to switch or stay.
+
+What should the contestant do?
 
 ## Savant in Parade
 
@@ -51,7 +55,7 @@ Your decision: Do you want a random door out of 100 (initial guess) or the best 
 
 We’re starting to see why Monty’s actions help us. He’s letting us choose between a generic, random choice and a curated, filtered choice. Filtered is better.
 
-**Source from:** [Understanding the Monty Hall Problem - BetterExplained](https://betterexplained.com/articles/understanding-the-monty-hall-problem/)
+**Sourced from:** [Understanding the Monty Hall Problem - BetterExplained](https://betterexplained.com/articles/understanding-the-monty-hall-problem/)
 
 ## Overcoming Our Misconceptions
 
@@ -63,7 +67,7 @@ Now, let’s say Pitcher A is a rookie, never been tested, and Pitcher B won the
 
 Information matters.
 
-**Source from:** [Understanding the Monty Hall Problem - BetterExplained](https://betterexplained.com/articles/understanding-the-monty-hall-problem/)
+**Sourced from:** [Understanding the Monty Hall Problem - BetterExplained](https://betterexplained.com/articles/understanding-the-monty-hall-problem/)
 
 ## Standard Assumptions
 
@@ -104,12 +108,16 @@ python main.py
 
 ## Results Visualization 
 
+The plot below illustrates the winning percentages for both "Stay" and "Switch" strategies across different numbers of doors. As shown, the "Switch" strategy consistently yields a higher winning percentage, confirming it as the optimal approach.
+
+![Graph](Figure_1.png "Stay vs Switch")
+
 | num_doors | stay_wins | switch_wins | stay_win_percentage | switch_win_percentage |
 | --- | --- | --- | --- | --- |
 | 3 | 3333 | 6659 | 33.33 | 66.59 |
 | 10 | 971 | 8989 | 9.71.33 | 89.89 |
 | 1000 | 18 | 9992 | 0.18 | 99.92 |
 
-![Graph]()
-
 ## License
+
+This project is not licensed.
