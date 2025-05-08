@@ -100,7 +100,7 @@ git clone https://github.com/klaus-001/monty-hall-problem.git
 2. Install dependencies:
 
 ```powershell
-pip install pandas matplotlib
+pip install numpy pandas matplotlib
 ```
 
 ## Usage
