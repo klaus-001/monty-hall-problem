@@ -2,11 +2,15 @@
 
 The Monty Hall Problem is a brain teaser, in the form of a probability puzzle, based nominally on the American television game show ***Let's Make a Deal*** and named after its orginal host, ***Monty Hall***. This Python project simulates the game show and highlights the statistical concept behind it, allowing for better understanding to this classical problem. The code is inspired by 50 Examples for Teaching Python so be sure to check them out.
 
+**Link:** [Fifty Examples for Teaching Python](https://fiftyexamples.readthedocs.io/en/latest/monty-hall.html)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Play the Game](#play-the-game)
 - [Savant in Parade](#savant-in-parade)
+- [What IF 100 Doors?](#what-if-100-doors)
+- [Overcoming Our Misconceptions](#overcoming-our-misconceptions)
 - [Standard Assumptions](#standard-assumptions)
 - [Features](#features)
 - [Installation](#installation)
@@ -114,9 +118,9 @@ The plot below illustrates the winning percentages for both "Stay" and "Switch" 
 
 | num_doors | stay_wins | switch_wins | stay_win_percentage | switch_win_percentage |
 | --- | --- | --- | --- | --- |
-| 3 | 3333 | 6659 | 33.33 | 66.59 |
-| 10 | 971 | 8989 | 9.71.33 | 89.89 |
-| 1000 | 18 | 9992 | 0.18 | 99.92 |
+| 3 | 3339 | 6666 | 33.39 | 66.66 |
+| 10 | 1004 | 8975 | 10.04 | 89.75 |
+| 10000 | 0 | 9999 | 0.00 | 99.99 |
 
 ## License
 
